@@ -1,42 +1,33 @@
-Useful Resources for Part 1
+### Useful Resources for Part 1
 
-Here are some resources that you might find helpful while studying this Part 1.
+Here are some resources that you might find helpful while studying Part 1.
 
 👉 [React](https://react.dev/?ref=jonas.io) (Documentation that you should keep open at all times)
 
-👉 [Create React App](https://create-react-app.dev/?ref=jonas.io) (This is how we'll setup our first app)
+👉 [Create React App](https://create-react-app.dev/?ref=jonas.io) (This is how we'll set up our first app)
 
 👉 [Vite:](https://vitejs.dev/guide/?ref=jonas.io) Getting Started (For real-world React apps)
 
-👉 [Adding React URL to an HTML Document](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html) (For the "Pure React" lecture)
+👉 [Adding React URL to an HTML Document](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c)
 
-There will be a lot more resources in the other parts. If you have additional suggestions, please add them to the Q&A of this lecture.
+### First Look at React
 
-First look at react
+1. **Why Do Front-End Frameworks Exist?**
 
-1.Why do front end framework exists?
+JavaScript front-end frameworks exist because keeping a user interface in sync with data is challenging and requires a lot of work. These frameworks, such as React, Angular, and Vue, alleviate this burden from developers by managing the complexity of state and UI synchronization.
 
-![alt text](image.png)
+2. **React vs. Vanilla JavaScript**
 
-JavaScript front-end framework exits because of
-Keeping a User interface in sync with data is really hard and lot of work
+- **React is a JavaScript library for building user interfaces.**
+  - **Component-Based:** Components are the building blocks of a user interface in React.
+  - **Declarative:** React uses a declarative approach, making code more predictable and easier to debug.
+  - **State-Driven:** React renders components on a webpage UI based on their current state, and it keeps the UI in sync with state changes by re-rendering (reacting) as the state updates.
+  - **Extremely Popular:** React is widely used and has a large community, providing extensive resources and support.
 
-front-end frameworks will solve this problem and take hard work away from developers
+![React Component Example](Readme-file-images/image-1.png)
+![React State Example](Readme-file-images/image-2.png)
+![JavaScript Library](Readme-file-images/image-3.png)
+![React Popularity](Readme-file-images/image4.png)
 
-frameworks are like react , angular vue ....etc
-
-2.React vs Vanilla JavaScript
-
-React is Javascript library for building user interface
-
-Based on components
-
-components are building blocks of user interface in react
-
-Declarative
-
-State Driven
-
-Javascript library
-
-Extremely Popular
+1 Rendering components on a webpage UI based on their current state
+2 Keeping the UI in sync with state, by re-rendering (reacting) when state changes
