@@ -93,3 +93,7 @@ Here's an example of a simple React application embedded in an HTML file:
 ```
 
 This example creates a simple React application that displays the current time and updates every second. The `App` component uses React hooks (`useState` and `useEffect`) to manage and update the state.
+
+![alt text](Readme-file-images/image5.png)
+
+![alt text](Readme-file-images/image6.png)
